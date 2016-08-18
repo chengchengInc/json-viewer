@@ -1,0 +1,24 @@
+{
+  "name": "Json Viewer",
+  "description": "Json Viewer",
+  "version": "0.1",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/chengchenginc/json-viewer",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "browser_action": {
+     "default_icon": "images/icons/32.png",
+     "default_title": "Json Viewer"
+  },
+  "icons": {
+       "128": "images/icons/128.png",
+       "32": "images/icons/32.png"
+  },
+  "permissions":["*://*/*", "<all_urls>"],
+  "web_accessible_resources":[
+      "js/**",
+      "components/**",
+      "css/**"
+  ]
+}
