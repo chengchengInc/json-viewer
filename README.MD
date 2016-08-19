@@ -8,4 +8,7 @@ textarea 输入json后 ，blur触发显示
 
 
 ##3、TODO ##
-json check
+json check、edit、format
+
+##4、功能截图##
+![](https://github.com/chengchengInc/json-viewer/blob/master/images/image1.png?raw=true)
